@@ -1,0 +1,26 @@
+{
+  "name": "mini-crud-task-system",
+  "version": "1.0.0",
+  "description": "crud task system example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YusufcanEsener/mini-crud-task-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YusufcanEsener/mini-crud-task-system/issues"
+  },
+  "homepage": "https://github.com/YusufcanEsener/mini-crud-task-system#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1"
+  }
+}
