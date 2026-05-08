@@ -14,7 +14,7 @@ exports.postRegister = (req, res) => {
     user.save()
         .then((result)=>{res.status(201).json(result);})
         .catch((err)=>{console.log(err)
-        res.status(400).json({error:e.message})   
+        res.status(400).json({error:err.message})   
         })
 }
 exports.postLogin = async(req, res, next) => {
@@ -29,4 +29,9 @@ exports.postLogin = async(req, res, next) => {
         console.log(e)
         res.status(400).json({error:e.message})
     }
+}
+
+exports.postLogout=async(req,res)=>{
+    res.clearCookie('jwt');
+    res.status(200).json({message:'Çıkış başarılı'})
 }

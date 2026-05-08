@@ -17,6 +17,9 @@ Backend tarafında Express.js kullandım ve JWT ile authentication yapısını k
 - PUT /tasks/:id
 - DELETE /tasks/:id
 
+## Yapay Zeka Kullanılan kısımlar
+- Middleware yazarken exportu {} içerisinde yazıpı app.js içerisinde {} olmadan fonksiyon olarak çağırmayı deneyip hata alıyordum çözemeyince yapay zekadan destek aldım
+
 ## Proje Kurulumu && Test
 ```bash
 npm install
